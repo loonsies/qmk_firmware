@@ -58,7 +58,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 void keyboard_post_init_user(void) {
   // Set the effect.
-  rgb_matrix_mode_noeeprom(RGB_MATRIX_CUSTOM_PALETTEFX_FLOW);
+  rgb_matrix_mode_noeeprom(RGB_MATRIX_CUSTOM_REACTIVE_FLOW);
   // Set the palette and maximize saturation and brightness.
   uint8_t palette_index = PALETTEFX_USER_0;  // Set custom palette
   rgb_matrix_sethsv_noeeprom(RGB_MATRIX_HUE_STEP * palette_index, 255, 255);
