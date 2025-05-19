@@ -127,7 +127,7 @@ static pin_t p24g_led_pin_list[P24G_HOST_DEVICES_COUNT] = P24G_INDICATION_LED_PI
 #    define LED_NONE_INDICATORS_KB rgb_matrix_none_indicators_kb
 #    define SET_ALL_LED_OFF() rgb_matrix_set_color_all(0, 0, 0)
 #    define SET_LED_OFF(idx) rgb_matrix_set_color(idx, 0, 0, 0)
-#    define SET_LED_ON(idx) rgb_matrix_set_color(idx, 255, 255, 255)
+#    define SET_LED_ON(idx) rgb_matrix_set_color(idx, 64, 255, 167)
 #    define SET_LED_BT(idx) rgb_matrix_set_color(idx, 0, 0, 255)
 #    define SET_LED_P24G(idx) rgb_matrix_set_color(idx, 0, 255, 0)
 #    define SET_LED_LOW_BAT(idx) rgb_matrix_set_color(idx, 255, 0, 0)

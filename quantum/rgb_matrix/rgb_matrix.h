@@ -217,6 +217,7 @@ void        rgb_matrix_decrease_speed_noeeprom(void);
 led_flags_t rgb_matrix_get_flags(void);
 void        rgb_matrix_set_flags(led_flags_t flags);
 void        rgb_matrix_set_flags_noeeprom(led_flags_t flags);
+void        rgb_matrix_update_pwm_buffers(void);
 #ifdef RGB_MATRIX_TIMEOUT
 
 #    if RGB_MATRIX_TIMEOUT > 0

@@ -267,7 +267,7 @@ bool factory_test_indicator(void) {
     } else if (backlight_test_mode) {
         switch (backlight_test_mode) {
             case BACKLIGHT_TEST_WHITE:
-                rgb_matrix_set_color_all(255, 255, 255);
+                rgb_matrix_set_color_all(64, 255, 167);
                 break;
             case BACKLIGHT_TEST_RED:
                 rgb_matrix_set_color_all(255, 0, 0);
